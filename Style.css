@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: inline-block;
+}
+.buttons{
+    border: 6px solid white;
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+.buttons button{
+    border: none;
+    cursor: pointer;
+}
+.buttons p{
+    font-size: 8px;
+    padding: 8px;
+}
+
+.uber #uber{
+    background-color: black;
+    color: white;
+    
+}
+
+.amazon #amazon {
+    background-color: rgb(255, 216, 20);
+    border-radius: 20px;
+}
+
+.github #github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+}
+.bootstrap {
+    display: flex;
+}
+.bootstrap #get-started{
+    background-color: rgb(121, 82, 179);
+    color: white;
+}
+.bootstrap #download{
+    background-color: rgb(108, 117, 125);
+}
+
+.linkedin #apply{
+    background-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    color: white;
+}
+.linkedin #save {
+    border-radius: 20px;
+    color: rgb(10, 102, 194);
+    border: 1px solid;
+}
+
+.amazon-ui {
+    background-color: white;
+    display: inline-block;
+}
+.amazon-ui h2, a, p{
+    padding:15px;
+}
+.amazon-ui #green-p{
+    color: rgb(0, 118, 0);
+}
+
+.amazon-btn {
+    padding: 15px;
+}
+.amazon-btn button{
+    border-radius: 15px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+
+}
+.amazon-btn #amazon{
+    background-color: rgb(255, 216, 20);
+}
+.amazon-btn #buy-now{
+    background-color: rgb(255, 164, 28);
+}
